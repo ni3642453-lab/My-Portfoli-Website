@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার বায়োডাটা ও পোর্টফোলিও</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #faf6f0;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 40px;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #fff;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: flex-end;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin-left: 25px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Profile Section */
+        .profile-card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-card img {
+            width: 100%;
+            max-width: 250px;
+            height: 250px;
+            border-radius: 50%; /* ছবিটিকে বৃত্তাকার করার জন্য */
+            object-fit: cover;
+            border: 5px solid #f1eae0;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            font-size: 1.8rem;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .profile-card p {
+            color: #007bff;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Section Styling */
+        .bio-section {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .bio-section h3 {
+            font-size: 1.4rem;
+            color: #222;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #f1eae0;
+            padding-bottom: 8px;
+        }
+
+        /* Info Grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .info-item {
+            font-size: 1.05rem;
+            color: #444;
+        }
+
+        .info-item strong {
+            color: #222;
+            display: inline-block;
+            width: 120px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        table, th, td {
+            border: 1px solid #e4dacb;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1eae0;
+            color: #222;
+            font-weight: 600;
+        }
+
+        /* List Styling */
+        ul {
+            margin-left: 20px;
+            color: #444;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #f1eae0;
+            padding: 30px 10%;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            border-top: 1px solid #e4dacb;
+            border-radius: 12px;
+        }
+
+        .footer-section h5 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .footer-section p {
+            color: #555;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        .footer-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                justify-content: center;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+            footer {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="#">হোম</a>
+            <a href="#">বায়োডাটা</a>
+            <a href="#">যোগাযোগ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <!-- Profile Top Card -->
+        <div class="profile-card">
+            <img src="WhatsApp Image 2026-06-27 at 6.30.58 PM.jpeg" alt="Md Nazrul Islam">
+            <h2>Md Nazrul Islam</h2>
+            <p>Beginner Web Developer</p>
+        </div>
+
+        <!-- Personal Info Section -->
+        <div class="bio-section">
+            <h3>ব্যক্তিগত তথ্য (Personal Information)</h3>
+            <div class="info-grid">
+                <div class="info-item"><strong>পিতার নাম:</strong> Mahabub Alam</div>
+                <div class="info-item"><strong>মাতার নাম:</strong> Rezia Begum</div>
+                <div class="info-item"><strong>জন্ম তারিখ:</strong> 05/08/1998</div>
+                <div class="info-item"><strong>জাতীয়তা:</strong> বাংলাদেশী</div>
+                <div class="info-item"><strong>রক্তের গ্রুপ:</strong> O+</div>
+                <div class="info-item"><strong>বর্তমান ঠিকানা:</strong> Kharulia Dargah Para, Ward No. 7, Jhilonjha, Cox's Bazar Sadar</div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="bio-section">
+            <h3>শিক্ষাগত যোগ্যতা (Educational Qualification)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>পরীক্ষার নাম (Degree)</th>
+                        <th>প্রতিষ্ঠান (Institution)</th>
+                        <th>পাসের সন (Passing Year)</th>
+                        <th>ফলাফল (Result)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BBA</td>
+                        <td>Ramu Govt. College</td>
+                        <td>2020</td>
+                        <td>CGPA 2.48</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Ramu Govt. College</td>
+                        <td>2016</td>
+                        <td>GPA 3.58</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Kharulia High School</td>
+                        <td>2014</td>
+                        <td>GPA 3.13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="bio-section">
+            <h3>পেশাদারী দক্ষতা (Skills)</h3>
+            <ul>
+                <li>বিজনেস স্ট্রাটেজি ও প্ল্যানিং (Business Strategy & Planning)</li>
+                <li>টিম ম্যানেজমেন্ট ও নেতৃত্ব (Team Management & Leadership)</li>
+                <li>প্রজেক্ট কো-অর্ডিনেশন (Project Coordination)</li>
+                <li>এইচটিএমএল ও সিএসএস (HTML & CSS)</li>
+            </ul>
+        </div>
+
+        <!-- Footer / Contact Info -->
+        <footer>
+            <div class="footer-section">
+                <h5>সোশ্যাল মিডিয়া</h5>
+                <p>Facebook: <a href="#" target="_blank">Md Nazrul Islam</a></p>
+            </div>
+            <div class="footer-section">
+                <h5>যোগাযোগ</h5>
+                <p>📞 WhatsApp: 01891511236</p>
+                <p>✉️ ইমেইল: mdnazrul222@gmail.com</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
